@@ -325,7 +325,7 @@ def pilih_super():
 	jalan('               \033[1;96m[✺] \033[1;93mStarting \033[1;97m...')
 	titik = ['.   ','..  ','... ']
 	for o in titik:
-        print("               \r\033[1;96m[\033[1;97m✸\033[1;96m] \033[1;93mCracking \033[1;97m"+o),;sys.stdout.flush();time.sleep(1)
+        print("\r\033[1;96m[\033[1;97m✸\033[1;96m] \033[1;93mCracking \033[1;97m"+o),;sys.stdout.flush();time.sleep(1)
 	print('      \x1b[1;96m[!] \x1b[1;93mTo Stop Process Press CTRL Then Press z')
 	print 50*"\033[1;96m▪"
 	
