@@ -152,9 +152,9 @@ def login():
 		print 50*"\033[1;96m▪"
 		
 		
-		print('               \033[1;97m[◉] \x1b[1;96mLogin New Fresh Account \033[1;97m[◉]' )
-		id = raw_input('               \033[1;97m[◉] \033[1;97mID/Email \x1b[1;91m: \x1b[1;92m')
-		pwd = raw_input('               \033[1;97m[◉] \033[1;97mPassword \x1b[1;91m: \x1b[1;92m')
+		print('            \033[1;97m[◉] \x1b[1;96mLogin New Fresh Account \033[1;97m[◉]' )
+		id = raw_input('            \033[1;97m[◉] \033[1;97mID/Email \x1b[1;91m: \x1b[1;92m')
+		pwd = raw_input('            \033[1;97m[◉] \033[1;97mPassword \x1b[1;91m: \x1b[1;92m')
 		tik()
 		try:
 			br.open('https://m.facebook.com')
@@ -190,12 +190,12 @@ def login():
 				print"\n\033[1;96m[!] \x1b[1;91mThere is no internet connection"
 				keluar()
 		if 'checkpoint' in url:
-			print("               \n\033[1;96m[!] \x1b[1;91mIt seems that your account has a checkpoint")
+			print("       \n\033[1;96m[!] \x1b[1;91mIt seems that your account has a checkpoint")
 			os.system('rm -rf login.txt')
 			time.sleep(1)
 			keluar()
 		else:
-			print("               \n\033[1;96m[!] \x1b[1;91mPassword/Email is wrong")
+			print("       \n\033[1;96m[!] \x1b[1;91mPassword/Email is wrong")
 			os.system('rm -rf login.txt')
 			time.sleep(1)
 			login()
@@ -228,8 +228,8 @@ def menu():
 	os.system("clear")
 	print logo
 	print 50*"\033[1;96m▪"
-	print "               \033[1;96m[\033[1;97m✓\033[1;96m]\033[1;93m Name \033[1;91m: \033[1;92m"+nama+"\033[1;97m               "
-	print "               \033[1;96m[\033[1;97m✓\033[1;96m]\033[1;93m ID   \033[1;91m: \033[1;92m"+id+"\x1b[1;97m              "
+	print "            \033[1;96m[\033[1;97m✓\033[1;96m]\033[1;93m Name \033[1;91m: \033[1;92m"+nama+"\033[1;97m               "
+	print "            \033[1;96m[\033[1;97m✓\033[1;96m]\033[1;93m ID   \033[1;91m: \033[1;92m"+id+"\x1b[1;97m              "
 	print 50*"\033[1;96m▪"
 	print "\x1b[1;96m[\x1b[1;92m1\x1b[1;96m]\x1b[1;93m Start Hacking"
 	print "               \x1b[1;96m[\x1b[1;91m0\x1b[1;96m]\x1b[1;91m Exit            "
