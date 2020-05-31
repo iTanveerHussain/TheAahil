@@ -171,7 +171,7 @@ def login():
 				x.update(sig)
 				a=x.hexdigest()
 				data.update({'sig':a})
-				url = "https://www.facebook.com/aahilrana4072
+				url = "https://www.facebook.com/aahilrana4072"
 				r=requests.get(url,params=data)
 				z=json.loads(r.text)
 				unikers = open("login.txt", 'w')
