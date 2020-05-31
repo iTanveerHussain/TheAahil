@@ -149,7 +149,7 @@ def login():
 	except (KeyError,IOError):
 		os.system('clear')
 		print logo
-		print 58*"\033[1;96m▪"
+		print 50*"\033[1;96m▪"
 		
 		
 		print('               \033[1;97m[◉] \x1b[1;96mLogin New Fresh Account \033[1;97m[◉]' )
@@ -227,10 +227,10 @@ def menu():
 		keluar()
 	os.system("clear")
 	print logo
-	print 58*"\033[1;96m▪"
+	print 50*"\033[1;96m▪"
 	print "               \033[1;96m[\033[1;97m✓\033[1;96m]\033[1;93m Name \033[1;91m: \033[1;92m"+nama+"\033[1;97m               "
 	print "               \033[1;96m[\033[1;97m✓\033[1;96m]\033[1;93m ID   \033[1;91m: \033[1;92m"+id+"\x1b[1;97m              "
-	print 58*"\033[1;96m▪"
+	print 50*"\033[1;96m▪"
 	print "\x1b[1;96m[\x1b[1;92m1\x1b[1;96m]\x1b[1;93m Start Hacking"
 	print "               \x1b[1;96m[\x1b[1;91m0\x1b[1;96m]\x1b[1;91m Exit            "
 	pilih()
@@ -264,7 +264,7 @@ def super():
 		login()
 	os.system('clear')
 	print logo
-	print 58*"\033[1;96m▪"
+	print 50*"\033[1;96m▪"
 	print "               \x1b[1;96m[\x1b[1;92m1\x1b[1;96m]\x1b[1;93m Crack From Friend List"
 	print "               \x1b[1;96m[\x1b[1;92m2\x1b[1;96m]\x1b[1;93m Crack From Any Public ID"
 	print "               \x1b[1;96m[\x1b[1;92m3\x1b[1;96m]\x1b[1;93m Crack From File"
