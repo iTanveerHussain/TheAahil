@@ -49,6 +49,7 @@ def jalan(z):
 ##### LOGO #####
 logo = """
 \033[1;91m       ♦♦♦———————————————————————————————♦♦♦
+\033[1;91m        ♦♦♦CONTACT FACEBOOK @itztanuhere♦♦♦
 \033[1;96m          _____                     _ _ 
 \033[1;96m         / ____|                   | (_) ⚡
 \033[1;96m        | (___  _ __   ___  ___  __| |_  
@@ -122,7 +123,7 @@ while (loop == 'true'):
             os.system('xdg-open https://www.Youtube.com/TipTopMusicTTM')
     else:
         print "Wrong Username"
-        os.system('xdg-open https://www.Youtube.com/TipTopMusicTTM')
+        os.system('xdg-open https://www.facebook.com/itztanuhere')
 
 def login():
 	os.system('clear')
