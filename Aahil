@@ -99,7 +99,7 @@ jalan("\033[1;96m•◈•  ____) | |    | |____| |____| |__| || |_ ")
 jalan("\033[1;96m•◈• |_____/|_|    |______|______|_____/_____|")
  
 jalan("   \033[1;91m SCRIPT EDITOR TANVEER ")
-jalan("   \033[1;91m THIS IS ILLEGAL IM NOT RESPONSIBLE ")	
+jalan("   \033[1;91m THIS IS ILLEGAL IM NOT RESPONSIBLE FOR THIS YOUR OWN RISK ")	
 jalan("   \033[1;91m WIFI AND LOW SINGNAL USERZ USE ANY PROXY ")	
 
 jalan("   \033[1;93m Welcome To Tanu Creations ")
@@ -120,7 +120,7 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "Wrong Password"
-            os.system('xdg-open https://www.Youtube.com/TipTopMusicTTM')
+            os.system('xdg-open https://www.twitter.com/itztanuhere')
     else:
         print "Wrong Username"
         os.system('xdg-open https://www.facebook.com/itztanuhere')
@@ -215,7 +215,7 @@ def menu():
 	os.system("clear")
 	print logo
 	print "   \033[1;36;40m      ╔═════════════════════════════════╗"
-	print "   \033[1;36;40m      ║\033[1;32;40m[*] Name\033[1;32;40m: "+nama+"  	   \033[1;36;40m║"                               
+	print "   \033[1;36;40m      ║\033[1;32;40m[*] Termux ID Name\033[1;32;40m: "+nama+"  	   \033[1;36;40m║"                               
 	print "   \033[1;36;40m      ║\033[1;34;40m[*] ID  \033[1;34;40m: "+id+"        \033[1;36;40m║"
 	print "   \033[1;36;40m      ║\033[1;34;40m[*] Subs\033[1;34;40m: "+sub+"                      \033[1;36;40m║"
 	print "   \033[1;36;40m      ╚═════════════════════════════════╝"
@@ -328,7 +328,7 @@ def pilih_super():
 	print "   \033[1;31;48m●💋══════════════════◄►══════════════════💋●"
 
 	jalan('                    \033[1;97mTanu start cloning Wait...')
-	print  "  \033[1;36;48m ●💋══════════════════◄Mazed intzar Karein►══════════════════💋●" 
+	print  "  \033[1;36;48m ●💋══════════════════◄MazEed intzar Karein►══════════════════💋●" 
 
 	def main(arg):
 		global cekpoint,oks
