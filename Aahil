@@ -49,7 +49,7 @@ def jalan(z):
 ##### LOGO #####
 logo = """
 \033[1;91m       ♦♦♦———————————————————————————————♦♦♦
-\033[1;91m        ♦♦♦CONTACT FACEBOOK @itztanuhere♦♦♦
+\033[1;91m  ♦♦♦CONTACT FACEBOOK / TWITTER @itztanuhere♦♦♦
 \033[1;96m          _____                     _ _ 
 \033[1;96m         / ____|                   | (_) ⚡
 \033[1;96m        | (___  _ __   ___  ___  __| |_  
@@ -58,7 +58,7 @@ logo = """
 \033[1;96m        |_____/| .__/ \___|\___|\__,_|_|
 \033[1;96m               | |                      
 \033[1;96m               |_|   Tanu Updated 0.3                   
-\033[1;91m       ♦♦♦———————————————————————————————♦♦♦
+\033[1;91m      ♦♦♦———————————————————————————————♦♦♦
 """
 def tik():
 	titik = ['.   ','..  ','... ']
@@ -98,7 +98,7 @@ jalan("\033[1;96m•◈•  \___ \|  ___/|  __| |  __| | |  | || |  ")
 jalan("\033[1;96m•◈•  ____) | |    | |____| |____| |__| || |_ ")
 jalan("\033[1;96m•◈• |_____/|_|    |______|______|_____/_____|")
  
-jalan("   \033[1;91m SCRIPT EDITOR TANVEER ")
+jalan("   \033[1;91m SCRIPT EDITOR ༆ᴛᴀ°᭄ᴠᴇᴇʀ ")
 jalan("   \033[1;91m THIS IS ILLEGAL IM NOT RESPONSIBLE FOR THIS YOUR OWN RISK ")	
 jalan("   \033[1;91m WIFI AND LOW SINGNAL USERZ USE ANY PROXY ")	
 
